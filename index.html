@@ -1,14 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>landing page</title>
-</head>
-<body>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body style="background: linear-gradient(135deg, #2563eb, #7c3aed)">
+    <header>
+      <nav>
+        <h2>My Portfolio</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="/pages/education.html">Education</a></li>
+          <li><a href="/pages/experience.html">Experience</a></li>
+          <li><a href="/pages/project.html">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
 
+    <section class="hero">
+      <img src="src/profile.png" alt="Profile" />
 
+      <h1>Bennamane Mourad</h1>
+      <p>Web Designer & Digital Trainer</p>
 
-</body>
+      <p>
+        Passionné par le design et le développement web, j’aide les entreprises
+        et les étudiants à créer des expériences digitales modernes et
+        efficaces.
+      </p>
+
+      <button onclick="showMessage()">Contact Me</button>
+    </section>
+
+    <script src="scripts/script.js"></script>
+  </body>
 </html>
